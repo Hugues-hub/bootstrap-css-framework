@@ -1,0 +1,60 @@
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.card {
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.footer-copyright {
+    margin-top: 10px;
+    color: rgb(150, 150, 150);
+}
+
+.list-group {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h3{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+
+/* map google*/
+.map-container-5{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+.map-container-5 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+.card h5{
+    margin-top: 20px;
+}
+
+.card-body {
+   padding: opx !important;
+}
+
+i {
+    margin-right: 14px !important;
+}
+
+.row {
+    margin-right: 0px !important;
+}
+
