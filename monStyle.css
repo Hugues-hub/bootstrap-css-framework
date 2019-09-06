@@ -1,7 +1,7 @@
-
-.bg-light {
-    background-color: transparent !important;
+body {
+    background-color: rgb(245, 245, 245);
 }
+
 
 .card {
     background-size: cover;
@@ -45,7 +45,10 @@ h1{
 .card h5{
     margin-top: 20px;
 }
-
+.card {
+    border-radius: 0px;
+    border: 0px;
+}
 .card-body {
    padding: opx !important;
 }
@@ -56,5 +59,27 @@ i {
 
 .row {
     margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.list-group {
+    align-items: center!important;
 }
 
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.modal-open {
+    line-height: 1 !important;
+    font-size:  3rem !important;
+    text-align: center !important;
+}
+.modal-open a{
+    color: rgb(70, 70, 70) !important;
+}
+.modal-body {
+    padding: 1rem 1rem 3rem 1rem !important;
+}

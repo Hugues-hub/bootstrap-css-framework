@@ -1,20 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
-    <link rel="stylesheet" href="monStyle.css">
+    <meta name="description" content="galerie photos">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
     <title>Galerie photos</title>
+    
+    <!--Template based on URL below-->
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+
+    <!-- Place your stylesheet here-->
+    <link rel="stylesheet" href="monStyle.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+
     <header class="container-fluid">
         <!--début du navBar-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -32,7 +39,7 @@
                         <a class="nav-link" href="photos.html">Photos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="filiales.html">Restaurant</a>
+                        <a class="nav-link" href="filiales.html">Filiales</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -42,7 +49,9 @@
         </nav>
         <!--Fin du NavBar-->
     </header>
-            <main>
+
+    <main role="main" class="container-fluid ">
+        
                  <!--Début du Jumbotron-->
     <div class="card card-image" style="background-image: url(pictures/nadya-spetnitskaya-unsplash.jpg);">
         <div class="text-white text-center rgba-stylish-strong py-5 px-4">
@@ -62,41 +71,70 @@
           </div>
         </div>
       </div>
-      <!--Fin du Jumbotron -->
+      <!--Fin du Jumbotron -->        
+        
 
-      <!--Début de la galerie-->
-      <section>
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-              <div class="row mb-4">
-                  <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-                  </a>
-                  <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
-                  </a>
-                  <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
-                  </a>
-              </div>
-              <div class="row mb-4">
-                  <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
-                  </a>
-                  <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
-                  </a>
-                  <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                      <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
-                  </a>
-              </div>
-          </div>
-      </div>
+        <div class="text-center mt-2 pt-2">
+            <h1>Galerie photos</h1><br>
+            <!--<p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>-->
+        </div>
+<!-- galerie photos-->
+    <section>
+    <div class="row justify-content-center">
+    <div class="col-md-8">
+        <!-- Rangée 1-->
+        <div class="row mb-3">
+            <a href="pictures/anastasiia-vasileva-IODFFLZyDlI-unsplash_carre.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3">
+                <img src="pictures/anastasiia-vasileva-IODFFLZyDlI-unsplash_carre.jpg" class="img-fluid">
+            </a>
+            <a href="pictures/dennis-klein-unsplash_carre.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3">
+                <img src="pictures/dennis-klein-unsplash_carre.jpg" class="img-fluid">
+            </a>
+            <a href="pictures/diego-marin-PeDMdPVVUik-unsplash_carre.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3">
+                <img src="pictures/diego-marin-PeDMdPVVUik-unsplash_carre.jpg" class="img-fluid">
+            </a>
+            <a href="pictures/jametlene-reskp-vUVa3_oGvXE-unsplash_carre.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3">
+                <img src="pictures/jametlene-reskp-vUVa3_oGvXE-unsplash_carre.jpg" class="img-fluid">
+            </a>
+        </div>
+        <!-- FIN Rangée 1-->
+        
+        <!-- Rangée 2-->
+        <div class="row mb-4">
+            <a href="pictures/louis-hansel-cC0_UO1Obg4-unsplash_carre.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="pictures/louis-hansel-cC0_UO1Obg4-unsplash_carre.jpg" class="img-fluid">
+            </a>
+            <a href="pictures/louis-hansel-h_s7AUBPss8-unsplash_carre.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="pictures/louis-hansel-h_s7AUBPss8-unsplash_carre.jpg" class="img-fluid">
+            </a>
+            <a href="pictures/louis-hansel-W75bFvPPrK8-unsplash_carre.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                <img src="pictures/louis-hansel-W75bFvPPrK8-unsplash_carre.jpg" class="img-fluid">
+            </a>
+        </div>
+        <!-- FIN Rangée 2-->
+        
+        <!-- Rangée 3-->
+        <div class="row mb-3">
+            <a href="pictures/miti-CQW6ijeqInw-unsplash_carre.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3">
+                <img src="pictures/miti-CQW6ijeqInw-unsplash_carre.jpg" class="img-fluid">
+            </a>
+            <a href="pictures/heather-gill-DDQUARuTK7M-unsplash_carre.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3">
+                <img src="pictures/heather-gill-DDQUARuTK7M-unsplash_carre.jpg" class="img-fluid">
+            </a>
+            <a href="pictures/nassim-el-qochairi-ZSIb-lseiqA-unsplash_carre.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3">
+                <img src="pictures/nassim-el-qochairi-ZSIb-lseiqA-unsplash_carre.jpg" class="img-fluid">
+            </a>
+            <a href="pictures/natasha-reddy-ZAiOE5lVhNM-unsplash_carre.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3">
+                <img src="pictures/natasha-reddy-ZAiOE5lVhNM-unsplash_carre.jpg" class="img-fluid">
+            </a>
+        </div>
+        <!-- FIN Rangée 3-->
+    </div>
+</div> 
+<!--Fin de la galerie photos-->
+    </section>
 
-
-      </section>
-                
-            </main>
+    </main><!-- /.container -->
 <!-- Footer -->
     <footer class="page-footer font-small blue">
         <!-- Copyright -->
@@ -106,32 +144,25 @@
         <!-- Copyright -->
     </footer>
 <!-- Footer -->
-    </div>
 
-
-    <!-- Optional JavaScript --> 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-        
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <!--<script src="./script.js"></script>-->
-        
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
-
-      <script>
-      $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
                 event.preventDefault();
                 $(this).ekkoLightbox();
+            
             });
-      </script>
-        
+            
+            
+            
+            
+            </script>
+
 </body>
 </html>
