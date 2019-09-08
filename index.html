@@ -2,45 +2,63 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
-    <link rel="stylesheet" href="monStyle.css">
-    <title>Mon restaurant</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://kit.fontawesome.com/75bed6266a.js"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+  <link rel="stylesheet" href="monStyle.css">
+  <title>Mon restaurant</title>
 </head>
 
 <body>
   <header class="container-fluid">
-    <!--début du navBar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Home</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="carte.html">Carte <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="photos.html">Photos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="filiales.html">Filiales</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
+    <div class="row">
+      <div class="col">
+        <!--début du navBar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="carte.html">Carte <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="photos.html">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="filiales.html">Filiales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-    </nav>
-    <!--Fin du NavBar-->
+      <!--Fin du NavBar-->
+
+      <section class="social">
+        <div class="col mt-3">
+          <!--Facebook-->
+          <a class="fb-ic mr-3" href="https://www.facebook.com/html/" role="button"><i
+              class="fab fa-lg fa-facebook-f"></i></a>
+          <!--Twitter-->
+          <a class="tw-ic mr-3" href="https://www.twitter.com/html/" role="button"><i
+              class="fab fa-lg fa-twitter"></i></a>
+          <!--Google +-->
+          <a class="gplus-ic mr-3" href="https://www.google.com/html/" role="button"><i
+              class="fab fa-lg fa-google-plus-g"></i></a>
+        </div>
+      </section>
+    </div>
   </header>
 
 
@@ -65,59 +83,66 @@
       </div>
     </div>
     <!--Fin du Jumbotron -->
-
-    <!--Début des 2 panneaux "Promos" et "News"-->
-    <article class="panel">
-      <div class="container-fluid text-align-left">
-        <div class="row d-flex justify-content-around ">
-          <section class="box col-md-5 border rounded-lg d-block p-2 bg-light text-dark">
-            <H3>Nos meilleures ventes</H3>
-            <ul class="list-group">
-                    <li class="list-group-item d-flex col-md-12 justify-content-between align-items-center">
-                      Pizza "4 saisons" 
-                      <span class="badge badge-primary badge-pill">14 €</span>
-                    </li>
-                    <li class="list-group-item d-flex col-md-12 justify-content-between align-items-center">
-                      Pizza "4 fromages"
-                      <span class="badge badge-primary badge-pill">14 €</span>
-                    </li>
-                    <li class="list-group-item d-flex col-md-12 justify-content-between align-items-center">
-                      Pizza "Magherita"
-                      <span class="badge badge-primary badge-pill">13 €</span>
-                    </li>
-                  </ul>
-                </section>
-          <section class="box col-md-5 border rounded-lg d-block p-2 bg-light text-dark">
-            <H3>Nos promotions</H3>
-            <ul class="list-group">
-                    <li class="list-group-item d-flex col-md-12 justify-content-between align-items-center">
-                      Spaghetti "bolognese" 
-                      <span class="badge badge-primary badge-pill">13 €</span>
-                    </li>
-                    <li class="list-group-item d-flex col-md-12 justify-content-between align-items-center">
-                      Pizza "Pepito"
-                      <span class="badge badge-primary badge-pill">12 €</span>
-                    </li>
-                    <li class="list-group-item d-flex col-md-12 justify-content-between align-items-center">
-                      Pizza "Rustica"
-                      <span class="badge badge-primary badge-pill">12 €</span>
-                    </li>
-                  </ul>
-                </section>
-        </div>
+    <article class="welcome">
+      <div class="container-fluid text-center mb-5">
+        <H1>Bienvenue à la pizzeria <strong>X-PORT PIZZERIA</strong></H1><br>
+        <p>Savourez votre pizza cuite au feu de bois dans une ambiance familiale et décontractée proposant une large
+          gamme de pizzas à la demande..</p>
       </div>
+      <!--Début des 2 panneaux "Promos" et "News"-->
+      <section class="panel">
+        <div class="container-fluid text-align-left">
+          <div class="row d-flex justify-content-around ">
+            <section class="box col-md-5 border rounded-lg d-block p-2 bg-light text-dark">
+              <H3>Nos meilleures ventes</H3>
+              <ul class="list-group">
+                <li class="list-group-item d-flex col-md-12 justify-content-between align-items-center">
+                  Pizza "4 saisons"
+                  <span class="badge badge-primary badge-pill">14 €</span>
+                </li>
+                <li class="list-group-item d-flex col-md-12 justify-content-between align-items-center">
+                  Pizza "4 fromages"
+                  <span class="badge badge-primary badge-pill">14 €</span>
+                </li>
+                <li class="list-group-item d-flex col-md-12 justify-content-between align-items-center">
+                  Pizza "Magherita"
+                  <span class="badge badge-primary badge-pill">13 €</span>
+                </li>
+              </ul>
+            </section>
+            <section class="box col-md-5 border rounded-lg d-block p-2 bg-light text-dark">
+              <H3>Nos promotions</H3>
+              <ul class="list-group">
+                <li class="list-group-item d-flex col-md-12 justify-content-between align-items-center">
+                  Spaghetti "bolognese"
+                  <span class="badge badge-primary badge-pill">13 €</span>
+                </li>
+                <li class="list-group-item d-flex col-md-12 justify-content-between align-items-center">
+                  Pizza "Pepito"
+                  <span class="badge badge-primary badge-pill">12 €</span>
+                </li>
+                <li class="list-group-item d-flex col-md-12 justify-content-between align-items-center">
+                  Pizza "Rustica"
+                  <span class="badge badge-primary badge-pill">12 €</span>
+                </li>
+              </ul>
+            </section>
+            <!--Fin des 2 panneaux "Promos" et "News"-->
+          </div>
+        </div>
+      </section>
+
     </article>
-    <!--Fin des 2 panneaux "Promos" et "News"-->
   </main>
   <!-- Footer -->
   <footer class="page-footer font-small blue">
-  
+
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3 ">© 2019 Copyright: X-PIZZERIA
       <!--<a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>-->
     </div>
     <!-- Copyright -->
-  
+
   </footer>
   <!-- Footer -->
   </div>

@@ -83,3 +83,8 @@ i {
 .modal-body {
     padding: 1rem 1rem 3rem 1rem !important;
 }
+
+.social a{
+    color: dimgrey;
+    font-size: smaller;
+}
